@@ -4,6 +4,7 @@ let newbtn = document.querySelector("#newbtn");
 let gamemsgcon = document.querySelector(".msgcon");
 let msg = document.querySelector("#msg");
 
+
 let turnO = true;
 const winpattern = [
     [0, 1, 2],
@@ -40,6 +41,7 @@ boxes.forEach((box)=> {
      checkwinner();
     });
 });
+
 
 const disableboxes =() => {
      for(let box of boxes){
